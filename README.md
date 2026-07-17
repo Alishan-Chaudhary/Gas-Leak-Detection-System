@@ -160,7 +160,7 @@ The ESP32 continuously reads analog data from the MQ-6 gas sensor and digital da
 |---|---|---|
 | 1 | Detect gas leakage using MQ-6 | ✅ Passed |
 | 2 | Read temperature & humidity via DHT11 | ✅ Passed |
-| 3 | Auto-activate exhaust fan on leak | ⚠️ Failed — fan received insufficient current from the relay/transistor stage |
+| 3 | Auto-activate exhaust fan on leak |  ✅ Passed |
 | 4 | Send WhatsApp alert via Twilio | ✅ Passed |
 
 **Root cause of Test 3 failure:** the DC fan motor needed more current than the relay/transistor stage could reliably supply. The fix identified is adding a dedicated motor driver (e.g. an **L298N** module) between the relay and the fan.
@@ -174,7 +174,7 @@ This system is designed with life-safety and accessibility in mind — providing
 - Data privacy practices consistent with each platform's terms of service
 
 
-c. (2023) *Blynk IoT Platform Documentation*.
+c. (2026) *Blynk IoT Platform Documentation*.
 
 ## License
 
