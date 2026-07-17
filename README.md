@@ -2,7 +2,7 @@
 
 An affordable, ESP32-powered gas leak detection system that monitors LPG/gas levels in real time, automatically cuts power and activates an exhaust fan when a leak is detected, and alerts users instantly via WhatsApp — while logging live data to the Blynk IoT cloud.
 
-Built as part of **CC4003NI – Introduction to Robotics and IoT** at Islington College (London Metropolitan University), Autumn 2023.
+
 
 ---
 
